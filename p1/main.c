@@ -5,21 +5,18 @@ int main(void)
     int a, t, trial = 0;
     
     scanf("%d\n", &a);
-    
+    trial++;
     do {
         scanf("%d", &t);
         
         if (t > a) {
             printf("%d>?\n", t);
-            trial ++;
         }
         else if (t < a) {
             printf("%d<?\n", t);
-            trial ++;
         }
         else {
             printf("%d==?", t);
-            trial ++;
         }
 
     } while(a != t);
