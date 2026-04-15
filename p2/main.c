@@ -12,7 +12,7 @@ int main(void)
     
     for (int i=0; i<N; i++) {
         
-        scanf("%c", &C);
+        scanf(" %c", &C);
         
         if (C >='a' && C <='z') {
             cE++;
