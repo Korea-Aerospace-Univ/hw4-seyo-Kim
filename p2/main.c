@@ -38,7 +38,8 @@ int main(void)
         }
     }
     
-    printf("%d\n%d\n", tE, tN);
+    printf("%d\n", tE);
+    printf("%d", tN);
             
     return 0;
 }
