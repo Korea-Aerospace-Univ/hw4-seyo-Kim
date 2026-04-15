@@ -15,7 +15,7 @@ int main(void)
         scanf("%c", &C);
         
         if (C >= 'a' && C <= 'z') {
-            cE ++;
+            cE++;
             cN = 0;
             
             if(cE> tE) {
@@ -25,7 +25,7 @@ int main(void)
         }
         
         else if (C >= '0' && C <= '9') {
-            cN ++;
+            cN++;
             cE = 0;
             
             if(cN> tN) {
