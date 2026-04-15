@@ -5,9 +5,10 @@ int main(void)
     int a, t, trial = 0;
     
     scanf("%d\n", &a);
-    trial++;
+    
     do {
         scanf("%d", &t);
+        trial++;
         
         if (t > a) {
             printf("%d>?\n", t);
