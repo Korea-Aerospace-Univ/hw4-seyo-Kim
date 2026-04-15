@@ -11,15 +11,15 @@ int main(void)
         
         if (t > a) {
             printf("%d>?\n", t);
-            trial += 1;
+            trial ++;
         }
         else if (t < a) {
             printf("%d<?\n", t);
-            trial += 1;
+            trial ++;
         }
         else {
             printf("%d==?", t);
-            trial += 1;
+            trial ++;
         }
 
     } while(a != t);
