@@ -20,7 +20,8 @@ int main(void)
             
             if(cE> tE) {
                 tE = cE;
-            }   
+            }
+            
         }
         
         else if (C >= '0' && C <= '9') {
